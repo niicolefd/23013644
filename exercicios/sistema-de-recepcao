@@ -6,8 +6,7 @@ int main() {
     printf("Informe o numero de visitantes que entraram na empresa hoje: ");
     scanf("%i", &visitantes);
 
-    printf("Numero de visitantes registrados: %i\n", visitantes);
-    printf("Registro concluido com sucesso.\n");
+    printf("Numero de visitantes registrados: %i", visitantes);
 
     return 0;
     
