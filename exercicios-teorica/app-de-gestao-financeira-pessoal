@@ -14,5 +14,4 @@ int main() {
     printf("Saldo atualizado: %.2f", saldo);
 
     return 0;
-
 }
