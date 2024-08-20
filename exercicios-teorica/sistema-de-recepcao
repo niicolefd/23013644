@@ -8,6 +8,5 @@ int main() {
 
     printf("Numero de visitantes registrados: %i", visitantes);
 
-    return 0;
-    
+    return 0;   
 }
