@@ -5,7 +5,7 @@ int main() {
     
     printf("Ola eu sou o Nº 1, como e seu nome? ");
     scanf("%s", nome);
-    printf("Bem-vindo ao clube, %s!\n", nome);
+    printf("Bem-vindo ao clube, %s!", nome);
     
     return 0;
 }
