@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int a1, razao, n, an;
+    
+    printf("Digite o primeiro termo da PA: ");
+    scanf("%i", &a1);
+    printf("Digite a razao da PA: ");
+    scanf("%i", &razao);
+    printf("Digite o numero N: ");
+    scanf("%i", &n);
+    
+    an = a1 + (n - 1) * razao;
+    printf("O %i-esimo termo da PA e: %i", n, an);
+    
+    return 0;
+}
