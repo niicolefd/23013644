@@ -2,6 +2,6 @@
 
 int main() {
     unsigned int n = 4000000000;
-    printf("%u\n", n);
+    printf("%u", n);
     return 0;
 }
