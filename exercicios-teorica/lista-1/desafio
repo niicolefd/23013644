@@ -18,9 +18,9 @@ int main() {
     dy_acao2 = (dividendo_acao2 / preco_acao2) * 100;
     dy_acao3 = (dividendo_acao3 / preco_acao3) * 100;
 
-    printf("Dividend Yield da Ação 1: %.2f%%\n", dy_acao1);
-    printf("Dividend Yield da Ação 2: %.2f%%\n", dy_acao2);
-    printf("Dividend Yield da Ação 3: %.2f%%\n", dy_acao3);
+    printf("Dividend Yield da acao 1: %.2f%%\n", dy_acao1);
+    printf("Dividend Yield da acao 2: %.2f%%\n", dy_acao2);
+    printf("Dividend Yield da acao 3: %.2f%%\n", dy_acao3);
 
     return 0;
 }
