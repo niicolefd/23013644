@@ -1,0 +1,48 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    float n1, n2, n3, media, faltas, aulas, porcento_faltas;
+    char o;
+    
+    refaz:
+    
+    printf ("Quantas aulas foram dadas: ");
+    scanf ("%f", &aulas);
+    printf ("Quantas faltas o aluno teve: ");
+    scanf ("%f", &faltas);
+    
+    porcento_faltas = (25*aulas)/100;
+    
+    if (faltas >= porcento_faltas) {
+        printf ("Aluno reprovado por faltas\n");
+        printf ("A porcentagem de faltas do aluno e: %.1f", (faltas*100)/aulas);
+    }
+    
+    else {
+    printf ("Escrava suas 3 notas:\n");
+    scanf ("%f \n %f \n %f", &n1, &n2, &n3);
+    
+    media = (n1+n2+n3)/3;
+    
+    if (media >= 5) {
+        printf ("Parabens voce foi aprovado", media);
+        printf ("Sua media e: %.1f\n", media);
+        printf ("A porcentagem de faltas do aluno e: %.1f \n", (faltas*100)/aulas);
+    }
+
+    else {
+        printf ("Infelizmente voce foi reprovado", media);
+        printf ("Sua media e: %.1f\n", media);
+        printf ("A porcentagem de faltas do aluno e: %.1f \n", (faltas*100)/aulas);
+    }}
+    
+    printf("\nDeseja calcular novamente? (sim/nao)");
+    scanf("%s",&o);
+    
+    if (o == 's') {
+        goto refaz;
+    }
+    
+    return (0);
+}
