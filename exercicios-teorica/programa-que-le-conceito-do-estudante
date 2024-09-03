@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <ctype.h>
+
+int main() {
+    char con;
+    
+    printf ("Informe o conceito do aluno: ");
+    scanf("%c", &con);
+    
+    con = toupper(con);
+    
+    if (con == 'A') {
+        printf ("Excelente");
+        }
+    else if (con == 'B') { 
+        printf ("Otimo");
+        }
+    else if (con == 'C') {
+        printf ("Bom");
+        }
+    else if (con == 'D') {
+        printf ("Regular");
+        }
+    else if (con == 'E') {
+        printf ("Ruim");
+        }
+     else if (con == 'F') {
+        printf ("Tente novamente");
+        }
+    else {
+        printf ("Erro");
+    }
+
+    return (0);
+}
