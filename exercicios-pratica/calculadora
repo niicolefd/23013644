@@ -1,0 +1,47 @@
+#include <stdio.h>
+
+int main() {
+    float num1, num2;
+    char t, v;
+    
+    voltar:
+    
+    printf("Digite o primeiro numero: ");
+    scanf("%f", &num1);
+    printf("Digite o segundo numero: ");
+    scanf("%f", &num2);
+    printf ("Qual operacao deseja realizar:\n soma = a\n subtracao = b\n multiplicacao = c\n divisao = d\n");
+    scanf ("%s",&t);
+    
+    switch (t) {
+        
+    case 'a': 
+    printf("A soma e %.2f\n", num1 + num2);
+    break;
+    
+    case 'b':
+    printf("A subtracao e %.2f\n", num1 - num2);
+    break;
+    
+    case 'c':
+    printf("A multiplicacao e %.2f\n", num1 * num2);
+    break;
+    
+    case 'd':
+    printf("A divisao e %.2f\n", num1 / num2);
+    
+    default :
+    
+    printf ("Insira uma opcao valida:\n");
+    }
+    
+    printf ("Deseja fazer novamente? (sim/nao)");
+    scanf ("%s", &v);
+    
+    if (v == 's') {
+    
+    goto voltar;
+    }
+
+return 0;
+}
