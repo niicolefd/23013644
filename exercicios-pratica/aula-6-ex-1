@@ -2,7 +2,7 @@
 #include <math.h>
 
 int main() {
-    float nota_trab, peso_trab, aval_sem, peso_aval, exame, peso_exame, media;
+    float nota_trab, aval_sem, exame, media;
     
     printf("Digite a nota do trabalho em laboratorio: ");
     scanf("%f", &nota_trab);
