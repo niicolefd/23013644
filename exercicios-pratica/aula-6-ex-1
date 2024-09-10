@@ -2,7 +2,7 @@
 #include <math.h>
 
 int main() {
-    float nota_trab, peso_trab, aval_sem, peso_aval, exame_final, peso_exame, media;
+    float nota_trab, peso_trab, aval_sem, peso_aval, exame, peso_exame, media;
     
     printf("Digite a nota do trabalho em laboratorio: ");
     scanf("%f", &nota_trab);
@@ -11,9 +11,9 @@ int main() {
     scanf("%f", &aval_sem);
     
     printf("Digite a nota do exame final: ");
-    scanf("%f", &exame_final);
+    scanf("%f", &exame);
     
-    media = (nota_trab * 2.0 + aval_sem * 3.0 + exame_final * 5.0)/10;
+    media = (nota_trab * 2.0 + aval_sem * 3.0 + exame * 5.0)/10;
     
     if (media >= 8 && media <= 10) {
         printf("Seu conceito final e: A");
