@@ -3,7 +3,7 @@
 int main() {
     int escolha;
     
-    printf("Esoclha um plano de assinatura:\n");
+    printf("Escolha um plano de assinatura:\n");
     printf("1. Plano Básico\n");
     printf("2. Plano Padrão\n");
     printf("3. Plano Premium\n");
