@@ -10,8 +10,8 @@ int main() {
     scanf("%f", &num1);
     printf("Digite o segundo numero: ");
     scanf("%f", &num2);
-    printf ("Qual operacao deseja realizar:\n soma = a\n subtracao = b\n multiplicacao = c\n divisao = d\n");
-    scanf ("%s",&t);
+    printf("Qual operacao deseja realizar:\n soma = a\n subtracao = b\n multiplicacao = c\n divisao = d\n");
+    scanf("%s",&t);
     
     switch (t) {
         
