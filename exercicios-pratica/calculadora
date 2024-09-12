@@ -30,7 +30,7 @@ int main() {
     case 'd':
     printf("A divisao e %.2f\n", num1 / num2);
     
-    default :
+    default:
     
     printf ("Insira uma opcao valida:\n");
     }
