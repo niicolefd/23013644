@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+int main() {
+    int escolha;
+    
+    printf("Esoclha um plano de assinatura:\n");
+    printf("1. Plano Básico\n");
+    printf("2. Plano Padrão\n");
+    printf("3. Plano Premium\n");
+    printf("Escolha um produto (1-3): ");
+    scanf("%i", &escolha);
+    
+    switch (escolha) {
+    
+    case 1:
+    printf("Plano Básico\n");
+    printf("Preço: R$ 29.90\n");
+    
+    break;
+    
+    case 2:
+    printf("Plano Padrão\n");
+    printf("Preço: R$ 49.90\n");
+    
+    break;
+    
+    case 3:
+    printf("Plano Premium\n");
+    printf("Preço: R$ 79.90\n");
+    
+    break;
+    
+    default:
+    
+    printf("Erro: Plano invalido.\n");
+    
+    break;
+    }
+    
+return 0;
+}
