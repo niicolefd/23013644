@@ -32,7 +32,7 @@ int main() {
     
     default:
     
-    printf ("Insira uma opcao valida:\n");
+    printf ("Insira uma opcao valida\n");
     }
     
     printf ("Deseja fazer novamente? (sim/nao)");
