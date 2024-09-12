@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int quantidade;
+    
+    printf("Informe a quantiade do produto: ");
+    scanf("%i", &quantidade);
+    
+    if (quantidade < 10) {
+        printf("Quantidade em estoque baixo");
+    }
+    else if (quantidade >= 10 && quantidade <= 50) {
+        printf("Quantidade em estoque médio");
+    }
+    else if (quantidade > 50) {
+        printf("Quantidade em estoque alto");
+    }
+
+return 0;
+}
