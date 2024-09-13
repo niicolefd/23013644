@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <math.h>
+int main() {
+    int numero;
+    double quadrado, cubo, quarta_potencia, raiz;
+    
+    printf("Digite um numero inteiro positivo: ");
+    scanf("%d", &numero);
+    
+    while (numero < 0) {
+        printf("Erro: Por favor, insira um numero inteiro positivo.\n");
+        printf("Digite um numero inteiro positivo: ");
+        scanf("%d", &numero);
+        
+    }
+    
+    pow()
+    
+    quadrado = pow(numero, 2);
+    cubo = pow(numero, 3);
+    quarta_potencia = pow(numero, 4);
+    raiz = sqrt(numero);
+    
+    printf("O numero %d elevado ao quadrado e %.2f.\n", numero, quadrado);
+    printf("O numero %d elevado ao cubo e %.2f.\n", numero, cubo);
+    printf("O numero %d elevado a quarta potência e %.2f.\n", numero, quarta_potencia);
+    printf("A raiz quadrada de %d e %.2f.\n", numero, raiz);
+    
+return 0;
+}
