@@ -10,8 +10,7 @@ int main() {
     while (numero < 0) {
         printf("Erro: Por favor, insira um numero inteiro positivo.\n");
         printf("Digite um numero inteiro positivo: ");
-        scanf("%d", &numero);
-        
+        scanf("%d", &numero);    
     }
     
     pow()
