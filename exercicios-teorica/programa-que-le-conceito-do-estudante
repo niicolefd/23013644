@@ -2,29 +2,29 @@
 #include <ctype.h>
 
 int main() {
-    char con;
+    char conceito;
     
     printf ("Informe o conceito do aluno: ");
-    scanf("%c", &con);
+    scanf("%c", &conceito);
     
-    con = toupper(con);
+    conceito = toupper(conceito);
     
-    if (con == 'A') {
+    if (conceito == 'A') {
         printf ("Excelente");
         }
-    else if (con == 'B') { 
+    else if (conceito == 'B') { 
         printf ("Otimo");
         }
-    else if (con == 'C') {
+    else if (conceito == 'C') {
         printf ("Bom");
         }
-    else if (con == 'D') {
+    else if (conceito == 'D') {
         printf ("Regular");
         }
-    else if (con == 'E') {
+    else if (conceito == 'E') {
         printf ("Ruim");
         }
-     else if (con == 'F') {
+     else if (conceito == 'F') {
         printf ("Tente novamente");
         }
     else {
