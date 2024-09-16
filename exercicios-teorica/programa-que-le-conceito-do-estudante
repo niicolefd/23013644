@@ -4,31 +4,31 @@
 int main() {
     char conceito;
     
-    printf ("Informe o conceito do aluno: ");
+    printf("Informe o conceito do aluno: ");
     scanf("%c", &conceito);
     
     conceito = toupper(conceito);
     
     if (conceito == 'A') {
-        printf ("Excelente");
+        printf("Excelente");
         }
     else if (conceito == 'B') { 
-        printf ("Otimo");
+        printf("Otimo");
         }
     else if (conceito == 'C') {
-        printf ("Bom");
+        printf("Bom");
         }
     else if (conceito == 'D') {
-        printf ("Regular");
+        printf("Regular");
         }
     else if (conceito == 'E') {
-        printf ("Ruim");
+        printf("Ruim");
         }
      else if (conceito == 'F') {
-        printf ("Tente novamente");
+        printf("Tente novamente");
         }
     else {
-        printf ("Erro");
+        printf("Erro");
     }
 
     return (0);
