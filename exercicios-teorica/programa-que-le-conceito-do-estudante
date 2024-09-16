@@ -24,7 +24,7 @@ int main() {
     else if (conceito == 'E') {
         printf("Ruim");
         }
-     else if (conceito == 'F') {
+    else if (conceito == 'F') {
         printf("Tente novamente");
         }
     else {
