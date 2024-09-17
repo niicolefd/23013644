@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int n, v, num;
+    
+    num=1;
+    printf ("Digite um número inteiro: ");
+    scanf ("%d", &n);
+    
+    while (num <= 10) {
+        v = n * num;
+        printf ("\n %d x %d = %d \n", n, num, v);
+        num++;
+    }
+
+return 0;
+}
