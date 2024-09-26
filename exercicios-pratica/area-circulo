@@ -13,5 +13,5 @@ int main() {
     
     printf("A area do circulo e: %.2f", area);
     
-    return 0;
+return 0;
 }
