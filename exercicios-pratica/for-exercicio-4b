@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int numero, soma = 0;
+    
+    printf("Digite um número positivo: ");
+    scanf("%i", &numero);
+    
+    for (int a = 1; a <= numero; a++) {
+        if (a % 2 == 0) {
+            soma += a;
+        }
+    }
+    
+    printf("A soma dos números pares de 1 até %i é: %i", numero, soma);
+
+return 0;
+}
