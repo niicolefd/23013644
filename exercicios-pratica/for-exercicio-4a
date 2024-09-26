@@ -9,7 +9,7 @@ int main() {
         }
     }
     
-    printf("A soma dos números pares de 1 até 500 é: %d\n", soma);
+    printf("A soma dos números pares de 1 até 500 é: %i\n", soma);
 
     return 0;
 }
