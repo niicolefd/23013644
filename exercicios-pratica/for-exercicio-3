@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main() {
+    float n1, n2, media, turma;
+    
+    printf ("Quantos alunos a turma possui: ");
+    scanf ("%f", &turma);
+    
+    for (int a = 1; a <= turma; a++) {
+        printf ("\nInforme a primeira nota: ");
+        scanf ("%f", &n1 );
+        printf ("Informe a segunda nota: ");
+        scanf ("%f", &n2 ); 
+        
+        media = (n1 + n2) / 2.0;
+        
+        if (media < 5) {
+            printf ("\nMedia do aluno %d: %.2f\n", a, media);
+            printf ("Aluno reprovado\n");
+        }
+        else {
+            printf ("\nMedia do aluno %d: %.2f\n", a, media);
+            printf ("Aluno aprovado\n");
+        }
+    }
+
+return 0;
+}
