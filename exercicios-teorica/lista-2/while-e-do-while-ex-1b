@@ -8,16 +8,16 @@ int main() {
         scanf("%i", &combustivel);
         
         if (combustivel < 15) {
-            printf("\nAlerta! Nível de combustível baixo (%d%%). Por favor, recarregue o veículo.\n\n", combustivel);
+            printf("Alerta! Nível de combustível baixo (%i%%). Por favor, recarregue o veículo.\n\n", combustivel);
         } else if (combustivel < 100) {
-            printf("\nNível de combustível em %d%%. Monitorando...\n\n", combustivel);
+            printf("Nível de combustível em %i%%. Monitorando...\n\n", combustivel);
         } else {
-            printf("\nNível de combustível completo (%d%%). Nenhuma ação necessária.\n\n", combustivel);
+            printf("Nível de combustível completo (%i%%).\n\n", combustivel);
         }
     } 
     while (combustivel < 100);
 
-    printf("\nO nível de combustível está em 100%%. Monitoramento finalizado.\n");
+    printf("O nível de combustível está em 100%%. Monitoramento finalizado.\n");
 
     return 0;
 }
