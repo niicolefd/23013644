@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int passos, total_passos = 0;
+    int meta = 10000;
+
+    printf("Meta diária de passos: %i passos\n\n", meta);
+    
+    while (total_passos < meta) {
+        printf("Digite o número de passos dados: ");
+        scanf("%i", &passos);
+        
+        total_passos += passos;
+        
+        printf("Total de passos até agora: %i\n", total_passos);
+        
+        if (total_passos >= meta) {
+            printf("Parabéns! Você atingiu a meta diária de %i passos.\n", meta);
+        } else {
+            printf("Continue caminhando para atingir a meta!\n\n");
+        }
+    }
+return 0;
+}
