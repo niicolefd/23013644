@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    float deposito;
+    float deposito_minimo = 500.00;
+    
+    do {
+        printf("Digite o valor do depósito inicial (mínimo R$ %.2f): ", deposito_minimo);
+        scanf("%f", &deposito);
+        
+        if (deposito < deposito_minimo) {
+            printf("Erro: O valor mínimo para abrir uma conta é de R$ %.2f. Tente novamente.\n\n", deposito_minimo);
+        } else {
+            printf("Depósito aceito! Conta aberta com sucesso.\n");
+        }
+    } 
+    while (deposito < deposito_minimo);
+
+    return 0;
+}
